@@ -121,7 +121,7 @@ if __name__ == "__main__":
             codePath = "C:\\Path-to-file\\Code.exe"
             os.startfile(codePath)
 
-        elif 'email to simran' in query:
+        elif 'email' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
